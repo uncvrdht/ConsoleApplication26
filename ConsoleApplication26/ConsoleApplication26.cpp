@@ -21,7 +21,7 @@ public:
             denominator = denom;
         }
         else {
-             cout << "Denominator cannot be zero." <<  endl;
+             cout << "Denominator cannot be zero." <<  "\n";
         }
     }
 
@@ -55,24 +55,24 @@ int main() {
     Fraction b(1, 3);
 
     if (a > b) {
-         cout << "a > b" <<  endl;
+         cout << "a > b" <<  "\n";
     }
     else {
-         cout << "a <= b" <<  endl;
+         cout << "a <= b" <<  "\n";
     }
 
     if (a == b) {
-         cout << "a == b" <<  endl;
+         cout << "a == b" <<  "\n";
     }
     else {
-         cout << "a != b" <<  endl;
+         cout << "a != b" <<  "\n";
     }
 
     if (a != b) {
-         cout << "a != b" <<  endl;
+         cout << "a != b" <<  "\n";
     }
     else {
-         cout << "a == b" <<  endl;
+         cout << "a == b" <<  "\n";
     }
 
     return 0;
